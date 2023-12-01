@@ -3,6 +3,16 @@ body {
 }
 header {
     width: 100%;
+    background-color: #DFDDD2;
+}
+h1 {
+    font-size: 30px;
+}
+header a {
+    color: #053326;
+}
+.nav-link {
+    color: #053326;
 }
 /*Moved nav links to the right*/
 .navbar-nav {
@@ -10,4 +20,5 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    color: #053326;
 }
