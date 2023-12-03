@@ -25,9 +25,10 @@ h1 {
     font-size: 30px;
 }
 .work h2 {
-    background-color: rgba(195, 243, 243, 0.541);
+    background-image: linear-gradient(#dbd9c07c, rgba(0, 0, 0, 0.0));
     border-radius: 5px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 header a {
     color: #05332d;
@@ -61,7 +62,7 @@ header a {
     min-width: 10rem;
     margin-left:300px;
     margin-right: 300px;
-    background-color: rgba(195, 243, 243, 0.541);
+    background-color: rgba(243, 214, 195, 0.541);
 
 }
 .idPhoto {
@@ -81,7 +82,7 @@ header a {
     padding: 30px;
 }
 .card {
-    background-color: rgba(195, 243, 243, 0.541);
+    background-color: #a7ddd5b4;
 }
 .card img {
     height: 500px;
@@ -89,14 +90,16 @@ header a {
 }
 .work {
     display: flex;
-   margin-left: 300px;
-   margin-right: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgba(243, 214, 195, 0.541);
+    border-radius: 5px;
 }
 .column2 {
     align-self: flex-end;
     padding-left: 125px;
 }
-.row1 {
+.row1, .row2 {
     margin-top: 25px;
 }
 .work .btn {
