@@ -24,6 +24,11 @@ header {
 h1 {
     font-size: 30px;
 }
+.work h2 {
+    background-color: rgba(195, 243, 243, 0.541);
+    border-radius: 5px;
+    margin-right: 10px;
+}
 header a {
     color: #05332d;
 }
@@ -90,4 +95,10 @@ header a {
 .column2 {
     align-self: flex-end;
     padding-left: 125px;
+}
+.row1 {
+    margin-top: 25px;
+}
+.work .btn {
+    background-color: rgb(4, 140, 150);
 }
