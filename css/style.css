@@ -1,8 +1,12 @@
 /*Added html to body for bg image gradient to work*/
-body, html {
+html body {
     height: 100%;
+    padding-top: 65px;
 }
-
+/*Added smooth scroll for nav links*/
+html {
+    scroll-behavior: smooth; 
+}
 body {
     color: #05332d;
     background-image: linear-gradient(#3b7a72, #779c95);
@@ -13,7 +17,9 @@ body {
 header {
     width: 100%;
     background-color: #DFDDD2;
-    margin-bottom: 150px;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 h1 {
     font-size: 30px;
@@ -21,8 +27,12 @@ h1 {
 header a {
     color: #05332d;
 }
+.nav-link:hover {
+    color: rgb(4, 140, 150);
+}
 .nav-link {
     color: #05332d;
+    font-size: 20px;
 }
 /*added box-shadow to sticky navbar for clarity*/
 .navbar {
@@ -44,7 +54,7 @@ header a {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 150px;
-    background-color: #dfddd2f1;
+    background-color: #e7e3ce;
 
 }
 .idPhoto {
@@ -57,7 +67,7 @@ header a {
 .aboutMeContent {
     min-width: 10rem;
     max-width: 50rem;
-    background-color: #aaa89234;
+    background-color: #fffeee8a;
     height: 300px;
     border-radius: 15px;
     box-shadow: 5px 10px #aaa8927c;
