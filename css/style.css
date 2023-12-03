@@ -73,6 +73,7 @@ header a {
     box-shadow: 5px 10px #aaa8927c;
 }
 /*Using grid for work section*/
+/*
 .work {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -80,7 +81,6 @@ header a {
     grid-template-areas: 'card1 card1 card2 card2'
     'card3 card4 card4 card5';
 }
-/*
 .card1 {
     grid-area: 'card1';
     grid-column: 1 / 3;
