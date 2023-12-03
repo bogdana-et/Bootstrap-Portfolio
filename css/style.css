@@ -22,6 +22,18 @@ header a {
     justify-content: flex-end;
     color: #053326;
 }
+/*About section wraps for small-screen viewing*/
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .idPhoto {
-    width: 20%;
+    min-width: 10rem;
+    max-width: 25rem;
+}
+.aboutMeContent {
+    min-width: 10rem;
+    max-width: 50rem;
 }
