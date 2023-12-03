@@ -1,5 +1,6 @@
 body {
-    background-color: #053326;
+    color: #05332d;
+    background-image: linear-gradient(#3b7a72, #779c95);
 }
 header {
     width: 100%;
@@ -9,10 +10,10 @@ h1 {
     font-size: 30px;
 }
 header a {
-    color: #053326;
+    color: #05332d;
 }
 .nav-link {
-    color: #053326;
+    color: #05332d;
 }
 /*Moved nav links to the right*/
 .navbar-nav {
@@ -20,14 +21,14 @@ header a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    color: #053326;
+    color: #05332d;
 }
 /*About section wraps for small-screen viewing*/
 .about{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin:10px 150px;
+    margin: 70px 150px;
     background-color: #dfddd2f1;
 
 }
@@ -43,4 +44,6 @@ header a {
     max-width: 50rem;
     background-color: #aaa89234;
     height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 10px #aaa8927c;
 }
