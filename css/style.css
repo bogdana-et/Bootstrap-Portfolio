@@ -54,7 +54,7 @@ header a {
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 10rem;
-    margin-left:250px;
+    margin-left:300px;
     margin-right: 300px;
     background-color: rgba(195, 243, 243, 0.541);
 
@@ -72,6 +72,9 @@ header a {
     border-radius: 15px;
     box-shadow: 5px 10px #aaa8927c;
 }
+.aboutMeContent p, h2{
+    padding: 30px;
+}
 .card {
     background-color: rgba(195, 243, 243, 0.541);
 }
@@ -81,4 +84,10 @@ header a {
 }
 .work {
     display: flex;
+   margin-left: 300px;
+   margin-right: 300px;
+}
+.column2 {
+    align-self: flex-end;
+    padding-left: 125px;
 }
