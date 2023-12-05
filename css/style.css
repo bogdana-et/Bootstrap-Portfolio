@@ -114,12 +114,31 @@ header a {
 .skills li {
     color:#DFDDD2;
     background-color: #05332d;
+    font-weight: bold;
 }
 .contact button {
     background-color: rgb(4, 140, 150);
     color: #DFDDD2;
 }
+.contact button:hover {
+    background-color: #05332d;
+    box-shadow: 5px #3b7a72;
+}
 .contact a {
     color: #DFDDD2;
     text-decoration: none;
+}
+.contact a:hover {
+    color: yellow;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+footer h4 {
+    padding: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(243, 214, 195, 0.541), rgba(0, 0, 0, 0.0));
+    border: solid 2px #3b7a72;
 }
