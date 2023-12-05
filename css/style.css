@@ -106,3 +106,20 @@ header a {
 .work .btn {
     background-color: rgb(4, 140, 150);
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.skills li {
+    color:#DFDDD2;
+    background-color: #05332d;
+}
+.contact button {
+    background-color: rgb(4, 140, 150);
+    color: #DFDDD2;
+}
+.contact a {
+    color: #DFDDD2;
+    text-decoration: none;
+}
