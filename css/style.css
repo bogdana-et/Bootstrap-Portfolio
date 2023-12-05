@@ -131,14 +131,15 @@ header a {
 .contact a:hover {
     color: yellow;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+.footerButton {
+    background-color: #DFDDD2;
+    margin: 50px;
+    height: 50px;
 }
-footer h4 {
-    padding: 20px;
-    border-radius: 5px;
-    background-image: linear-gradient(rgba(243, 214, 195, 0.541), rgba(0, 0, 0, 0.0));
-    border: solid 2px #3b7a72;
+.footerButton a {
+        color: #05332d;
+}
+.footerButton:hover {
+    box-shadow: 10px 10px #3b7a72;
+    background-color: rgb(4, 140, 150)
 }
