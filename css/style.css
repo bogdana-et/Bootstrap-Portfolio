@@ -82,7 +82,8 @@ header a {
     padding: 30px;
 }
 .card {
-    background-color: #a7ddd5b4;
+    background-color: #a7ddd5b4
+    ;
 }
 .card img {
     height: 500px;
